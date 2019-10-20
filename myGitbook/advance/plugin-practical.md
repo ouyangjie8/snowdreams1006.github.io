@@ -1,18 +1,8 @@
 # 实用插件
 
-插件没有什么逻辑顺序,大家可以按照目录大纲直接定位到感兴趣的插件部分阅读即可.
+<!-- toc -->
 
-更多插件正在陆续更新中,敬请期待...
-
-## 最新更新插件
-
-- `tbfed-pagefooter` 版权页脚插件
-- `gitalk` 评论插件
-- `search-plus` 中文搜索插件
-
-> `gitalk` 评论插件并不是 `gitbook` 插件,因而集成方式和一般的插件安装方式不同!
-
-## `tbfed-pagefooter` 版权页脚插件
+## `tbfed-pagefooter` 页脚插件
 
 如果希望将网页源码暴露出去并接受公众的监督校准的话,使用[edit-link插件](https://plugins.gitbook.com/plugin/edit-link)可以直接链接到源码文件.
 
@@ -114,7 +104,7 @@ $ gitbook serve
 ![gitbook-plugin-disqus-config-site.png](./images/gitbook-plugin-disqus-config-site.png)
 
 至此 `disqus.com` 网站配置完成,接下来我们配置 `gitbook` 集成 `disqus` 插件.
- 
+
 ![gitbook-plugin-disqus-complete.png](./images/gitbook-plugin-disqus-complete.png)
 
 ### 安装并配置 `disqus` 插件
@@ -377,6 +367,199 @@ gitalk.render("gitalk-container");
 其实本质上并没有改变什么,仍然是集成到每个页面中,但是简化了人工操作的工作量就是效率的提升.
 
 如果有更高效更优雅的集成方式,欢迎大家一起探讨.
+
+## `mygitalk` 评论插件
+
+如果你正在苦恼于 `Gitbook` 静态博客无法添加动态交互功能,如果你渴望接收用户的评论反馈,如果你看过 `gitalk` 插件却苦于没有现成的 `Gitbook` 插件,那么 `mygitalk` 插件值得一试!
+
+[链接地址](https://www.npmjs.com/package/gitbook-plugin-mygitalk): https://snowdreams1006.github.io/gitbook-plugin-mygitalk/
+
+![gitbook-plugin-mygitalk-preview.png](./images/gitbook-plugin-mygitalk-preview.png)
+
+> `gitbook-plugin-mygitalk` 是全网最早发布的基于 `gitalk` 实现评论插件,用于给 `Gitbook` 博客网站集成评论功能.
+
+### 激活插件配置
+
+在 `book.json` 中配置 `mygitalk` 插件,详细说明请参考 [mygitalk 插件](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/).
+
+示例:
+
+```json
+{
+  "plugins" : ["mygitalk"],
+  "pluginsConfig": {
+    "mygitalk": {
+        "clientID": "GitHub Application Client ID",
+        "clientSecret": "GitHub Application Client Secret",
+        "repo": "GitHub repo",
+        "owner": "GitHub repo owner",
+        "admin": ["GitHub repo owner and collaborators, only these guys can initialize github issues"],
+        "distractionFreeMode": false
+    }
+  }
+}
+```
+
+### 安装 `mygitalk` 插件
+
+示例:
+
+```
+$ gitbook install
+```
+
+### 测试 `mygitalk` 插件
+
+启动本地服务器后可能会提示联系管理员,只需要 `gitbook build` 上传到目标服务器上即可正常开启评论功能.
+
+示例:
+
+```
+$ gitbook serve
+```
+
+![gitbook-plugin-mygitalk-preview.png](./images/gitbook-plugin-mygitalk-preview.png)
+
+## `copyright` 版权保护插件
+
+如果你的博客不希望被别人随意转载或者文章希望保留首发网站信息,那么推荐使用[copyright插件](https://www.npmjs.com/package/gitbook-plugin-copyright)帮助你进行版权保护.
+
+[链接地址](https://www.npmjs.com/package/gitbook-plugin-copyright): https://snowdreams1006.github.io/gitbook-plugin-copyright/
+
+![gitbook-plugin-copyright-preview.png](./images/gitbook-plugin-copyright-preview.png)
+
+> `gitbook-plugin-copyright` 版权保护插件实现复制文章时自动追加版权保护信息,并在文章结尾处追加来源信息.
+
+### 激活插件配置
+
+在 `book.json` 中配置 `copyright` 插件,详细说明请参考 [copyright 插件](https://snowdreams1006.github.io/gitbook-plugin-copyright/).
+
+示例:
+
+```json
+{
+    "plugins": ["copyright"],
+    "pluginsConfig": {
+        "copyright": {
+        "site": "https://snowdreams1006.github.io/gitbook-plugin-copyright",
+        "author": "雪之梦技术驿站",
+        "website": "雪之梦技术驿站",
+        "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"
+        }
+    }
+}
+```
+
+### 安装 `copyright` 插件
+
+示例:
+
+```
+$ gitbook install
+```
+
+### 测试 `copyright` 插件
+
+默认情况下,版权保护信息是英文,如果 `book.json` 配置文件中指定中文语言 `"language": "zh-hans"` 时,内容复制以及文章末尾均为中文.
+
+示例:
+
+```
+$ gitbook serve
+```
+
+![gitbook-plugin-copyright-preview.png](./images/gitbook-plugin-copyright-preview.png)
+
+## `readmore` 阅读更多插件
+
+如果 `Gitbook` 个人博客流量不错的话,可以考虑转化成公众号流量,`readmore` 插件是集成[OpenWrite](https://openwrite.cn/)提供引流工具,通过关注公众号解锁博客文章,实现粉丝转换!
+
+[链接地址](https://www.npmjs.com/package/gitbook-plugin-readmore): https://snowdreams1006.github.io/gitbook-plugin-readmore/
+
+![gitbook-plugin-readmore-preview.png](./images/gitbook-plugin-readmore-preview.png)
+
+### 激活插件配置
+
+在 `book.json` 中配置 `readmore` 插件,详细说明请参考 [readmore 插件](https://snowdreams1006.github.io/gitbook-plugin-readmore/).
+
+示例:
+
+```json
+{
+    "plugins": ["readmore"],
+    "pluginsConfig": {
+        "readmore":{
+            "blogId": "15702-1569305559839-744",
+            "name": "雪之梦技术驿站",
+            "qrcode": "https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg",
+            "keyword": "vip"
+        }
+    }
+}
+```
+
+### 安装 `readmore` 插件
+
+示例:
+
+```
+$ gitbook install
+```
+
+### 测试 `readmore` 插件
+
+`readmore` 插件暂未验证绑定域名,本地测试也能正常运行,如果后续开启了域名验证,只有部署到线上服务器才能生效,这一点和 `mygitalk` 插件原理类似.
+
+示例:
+
+```
+$ gitbook serve
+```
+
+![gitbook-plugin-readmore-preview.png](./images/gitbook-plugin-readmore-preview.png)
+
+## `github` 插件
+
+添加 `github` 图标链接,方便直接跳转到 `github` 指定仓库.
+
+[链接地址](https://plugins.gitbook.com/plugin/github): https://plugins.gitbook.com/plugin/github
+
+![gitbook-plugin-github-preview.png](./images/gitbook-plugin-github-preview.png)
+
+### 激活插件配置
+
+在 `book.json` 中配置 `github` 插件,详细说明请参考 [github 插件](https://plugins.gitbook.com/plugin/github).
+
+示例:
+
+```
+{
+    "plugins": ["github"],
+    "pluginsConfig": {
+        "github": {
+          "url": "https://github.com/snowdreams1006/snowdreams1006.github.io"
+        }
+    }
+}
+```
+
+### 安装 `github` 插件
+
+示例:
+
+```
+$ gitbook install
+```
+
+### 测试 `github` 插件
+
+示例:
+
+```
+$ gitbook serve
+```
+
+![gitbook-plugin-github-preview.png](./images/gitbook-plugin-github-preview.png)
 
 ## `edit-link` 编辑链接插件
 

@@ -4,7 +4,7 @@
         <description><![CDATA[雪之梦技术驿站静态网站,源码托管于 https://github.com/snowdreams1006/snowdreams1006.github.io]]></description>
         <link>https://snowdreams1006.github.io/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Jun 2019 09:16:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Oct 2019 10:59:39 GMT</lastBuildDate>
         <atom:link href="https://snowdreams1006.github.io/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[snowdreams1006]]></author>
         <managingEditor><![CDATA[snowdreams1006@163.com]]></managingEditor>
@@ -17,7 +17,18 @@
         <category><![CDATA[php]]></category>
         <item>
             <title><![CDATA[简介]]></title>
-            <description><![CDATA[教程分享均是笔者亲身学习经验总结,涉及到的知识点均亲身试验,但有时为了知识完整性,可能并未亲自确认,对于这部分内容会明确指出,到时由读者确认试验.]]></description>
+            <description><![CDATA[github
+wechat
+今日头条
+Bilibili
+慕课网
+简书
+csdn
+博客园
+掘金
+思否
+开源中国
+腾讯云社区]]></description>
             <link>https://snowdreams1006.github.io/</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
@@ -244,15 +255,21 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[扩展工具]]></title>
+            <link>https://snowdreams1006.github.io/git/tools/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[git bash 常见命令]]></title>
-            <description><![CDATA[此篇文章为公众号投稿文章,已发布在脚本之家公众号,如需查看请访问:]]></description>
+            <description><![CDATA[已投稿给脚本之家公众号,如需查看请访问:]]></description>
             <link>https://snowdreams1006.github.io/git/tools/git-bash-command.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/git-bash-command.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[git bash 朋友圈]]></title>
-            <description><![CDATA[此篇文章为公众号投稿文章,已发布在脚本之家公众号,如需查看请访问:]]></description>
+            <description><![CDATA[已投稿给脚本之家公众号,如需查看请访问:]]></description>
             <link>https://snowdreams1006.github.io/git/tools/git-bash-relationship.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/git-bash-relationship.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
@@ -266,20 +283,29 @@
         </item>
         <item>
             <title><![CDATA[git bash 扩展命令(上)]]></title>
+            <description><![CDATA[已投稿给脚本之家公众号,如需查看请访问:]]></description>
             <link>https://snowdreams1006.github.io/git/tools/git-bash-extend-up.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/git-bash-extend-up.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[git bash 扩展命令(中)]]></title>
+            <description><![CDATA[已投稿给脚本之家公众号,如需查看请访问:]]></description>
             <link>https://snowdreams1006.github.io/git/tools/git-bash-extend-middle.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/git-bash-extend-middle.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[git bash 扩展命令(下)]]></title>
+            <description><![CDATA[已投稿给脚本之家公众号,如需查看请访问:]]></description>
             <link>https://snowdreams1006.github.io/git/tools/git-bash-extend-down.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/git/tools/git-bash-extend-down.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[沙海拾贝]]></title>
+            <link>https://snowdreams1006.github.io/git/summary/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/git/summary/about.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -299,12 +325,6 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[常见问题]]></title>
-            <link>https://snowdreams1006.github.io/git/issue/README.html</link>
-            <guid isPermaLink="true">https://snowdreams1006.github.io/git/issue/README.html</guid>
-            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
-        </item>
-        <item>
             <title><![CDATA[github 入门教程]]></title>
             <description><![CDATA[github 是一个基于 git 的代码托管平台,是平时工作学习的好帮手,学会如何用好 github 网站能够帮助我们更好分享代码或者与其他开发人员合作.]]></description>
             <link>https://snowdreams1006.github.io/github/README.html</link>
@@ -316,6 +336,13 @@
             <description><![CDATA[github-speedup-github-preview.png]]></description>
             <link>https://snowdreams1006.github.io/github/speedup.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/github/speedup.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[github 徽章从何而来]]></title>
+            <description><![CDATA[平时大家在在逛 github 时或多或少都看到过项目首页各式各样的小徽章,不知道你是否和我一样好奇这些小徽章都是哪来的呢?]]></description>
+            <link>https://snowdreams1006.github.io/github/badge.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/github/badge.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -390,7 +417,7 @@
         </item>
         <item>
             <title><![CDATA[实用插件]]></title>
-            <description><![CDATA[插件没有什么逻辑顺序,大家可以按照目录大纲直接定位到感兴趣的插件部分阅读即可.]]></description>
+            <description><![CDATA[如果希望将网页源码暴露出去并接受公众的监督校准的话,使用edit-link插件可以直接链接到源码文件.]]></description>
             <link>https://snowdreams1006.github.io/myGitbook/advance/plugin-practical.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/myGitbook/advance/plugin-practical.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
@@ -400,6 +427,13 @@
             <description><![CDATA[目前 gitbook 提供三类文档: Book 文档,API 文档和 FAQ 文档.]]></description>
             <link>https://snowdreams1006.github.io/myGitbook/advance/plugin-theme.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/myGitbook/advance/plugin-theme.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[开发插件]]></title>
+            <description><![CDATA[Gitbook 插件是扩展 GitBook 功能(电子书和网站)的最佳方式.]]></description>
+            <link>https://snowdreams1006.github.io/myGitbook/advance/plugin-develop.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/myGitbook/advance/plugin-develop.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -414,6 +448,13 @@
             <description><![CDATA[默认情况下,gitbook 输出方式是静态网站,其实 gitbook 的输出方式有三种: website, json,和 ebook.]]></description>
             <link>https://snowdreams1006.github.io/myGitbook/advance/publish.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/myGitbook/advance/publish.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[公众号引流]]></title>
+            <description><![CDATA[相信大多数博客作者都或多或少有过这样想法: 现在各种平台这么多,想要实现全平台发布就要到处复制粘贴,等我有空一定做统一平台一次性全部解决!]]></description>
+            <link>https://snowdreams1006.github.io/myGitbook/openwrite/README.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/myGitbook/openwrite/README.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -487,6 +528,145 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[go 学习笔记]]></title>
+            <description><![CDATA[Go 是一种开源编程语言,可以轻松构建简单,可靠,高效的软件.]]></description>
+            <link>https://snowdreams1006.github.io/go/README.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/README.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[go 学习笔记]]></title>
+            <description><![CDATA[go-index-gopher.jpg]]></description>
+            <link>https://snowdreams1006.github.io/go/base/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[环境搭建]]></title>
+            <description><![CDATA[千里之行始于足下,开始 Go 语言学习之旅前,首先要搭建好本地开发环境,然后就可以放心大胆瞎折腾了.]]></description>
+            <link>https://snowdreams1006.github.io/go/base/setup.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/setup.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[工作空间]]></title>
+            <description><![CDATA[搭建好 Go 的基本环境后,现在可以正式开始 Go 语言的学习之旅,初学时建议在默认的 GOPATH 工作空间规范编写代码,基本目录结构大概是这个样子.]]></description>
+            <link>https://snowdreams1006.github.io/go/base/workspace.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/workspace.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[IDE编辑器]]></title>
+            <description><![CDATA[工欲善其事必先利其器,命令行工具虽然能够在一定程度上满足基本操作的需求,但实际工作中总不能一直使用命令行工具进行编码操作吧?]]></description>
+            <link>https://snowdreams1006.github.io/go/base/ide.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/ide.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[变量和常量]]></title>
+            <description><![CDATA[首先希望学习 Go 语言的爱好者至少拥有其他语言的编程经验,如果是完全零基础的小白用户,本教程可能并不适合阅读或尝试阅读看看,系列笔记的目标是站在其他语言的角度学习新的语言,理解 Go 语言,进而写出真正的 Go 程序.]]></description>
+            <link>https://snowdreams1006.github.io/go/base/var-and-const.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/var-and-const.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[基础语法]]></title>
+            <description><![CDATA[在上篇文章中,我们动手亲自编写了第一个 Go 语言版本的 Hello World,并且认识了 Go 语言中有意思的变量和不安分的常量.]]></description>
+            <link>https://snowdreams1006.github.io/go/base/grammar.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/base/grammar.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[内建容器]]></title>
+            <description><![CDATA[上篇文章中详细介绍了 Go 的基础语言,指出了 Go 和其他主流的编程语言的差异性,比较侧重于语法细节,相信只要稍加记忆就能轻松从已有的编程语言切换到 Go 语言的编程习惯中,尽管这种切换可能并不是特别顺畅,但多加练习尤其是多多试错,总是可以慢慢感受 Go 语言之美!]]></description>
+            <link>https://snowdreams1006.github.io/go/container/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/container/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数组切片]]></title>
+            <description><![CDATA[字符串]]></description>
+            <link>https://snowdreams1006.github.io/go/container/array.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/container/array.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[字典映射]]></title>
+            <description><![CDATA[结构的定义]]></description>
+            <link>https://snowdreams1006.github.io/go/container/map.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/container/map.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[面向对象]]></title>
+            <description><![CDATA[go-oop-about-oop-elephant.jpg]]></description>
+            <link>https://snowdreams1006.github.io/go/oop/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/oop/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[再说封装]]></title>
+            <description><![CDATA[虽然在上篇文章中,我们通过尝试性学习探索了 Go 语言中关于面向对象的相关概念,更确切的说是关于封装的基本概念以及相关实现.]]></description>
+            <link>https://snowdreams1006.github.io/go/oop/encapsulation.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/oop/encapsulation.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[能否继承]]></title>
+            <description><![CDATA[熟悉面向对象的小伙伴们可能会知道封装,继承和多态是最主要的特性,为什么前辈们会如此看重这三种特性,真的那么重要吗?]]></description>
+            <link>https://snowdreams1006.github.io/go/oop/inheritance.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/oop/inheritance.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[初识接口]]></title>
+            <description><![CDATA[在上篇文章中,我们编撰了一则简短的小故事用于讲解了什么是面向对象的继承特性以及 Go 语言是如何实现这种继承语义的,这一节我们将继续探讨新的场景,希望能顺便讲解面向对象的接口概念.]]></description>
+            <link>https://snowdreams1006.github.io/go/oop/interface.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/oop/interface.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[再谈接口]]></title>
+            <description><![CDATA[如果你还了解编程概念中的接口概念,那么我建议你最好还是先阅读上一篇文章.详情请点击 go 学习笔记之万万没想到宠物店竟然催生出面向接口编程? ,否则的话,请自动忽略上文,继续探索 Go 语言的接口有什么不同之处.]]></description>
+            <link>https://snowdreams1006.github.io/go/oop/interface-type.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/oop/interface-type.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[函数式编程]]></title>
+            <description><![CDATA[在编程世界中向来就没有一家独大的编程风格,至少目前还是百家争鸣的春秋战国,除了众所周知的面向对象编程还有日渐流行的函数式编程,当然这也是本系列文章的重点.]]></description>
+            <link>https://snowdreams1006.github.io/go/functional/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/functional/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[斐波那契数列]]></title>
+            <description><![CDATA[本篇文章是 Go 语言学习笔记之函数式编程系列文章的第二篇,上一篇介绍了函数基础,这一篇文章重点介绍函数的重要应用之一: 闭包]]></description>
+            <link>https://snowdreams1006.github.io/go/functional/fib.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/functional/fib.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[简要理解闭包]]></title>
+            <description><![CDATA[闭包是主流编程语言中的一种通用技术,常常和函数式编程进行强强联合,本文主要是介绍 Go 语言中什么是闭包以及怎么理解闭包.]]></description>
+            <link>https://snowdreams1006.github.io/go/functional/closure.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/functional/closure.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[错误管理]]></title>
+            <description><![CDATA[Go 语言中有个 defer 关键字,常用于实现延迟函数来保证关键代码的最终执行,常言道: "未雨绸缪方可有备无患".]]></description>
+            <link>https://snowdreams1006.github.io/go/error/about.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/error/about.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[常见问题]]></title>
+            <link>https://snowdreams1006.github.io/go/issue/faq.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/go/issue/faq.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[工具资源]]></title>
             <description><![CDATA[总结记录下使用过程中值得推荐的软件,正所谓"授人以鱼不如授人以渔",有些博主总结的更加全面有用,在此也分享下.]]></description>
             <link>https://snowdreams1006.github.io/tools/README.html</link>
@@ -529,7 +709,8 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[给windows虚拟机装个mac]]></title>
+            <title><![CDATA[给 windows 虚拟机装个 mac]]></title>
+            <description><![CDATA[windows-vmware-mac-macbookpro.png]]></description>
             <link>https://snowdreams1006.github.io/tools/windows-vmware-install-mac.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/tools/windows-vmware-install-mac.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
@@ -556,9 +737,9 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[玩转各种高大上的小徽章]]></title>
-            <link>https://snowdreams1006.github.io/tools/badge.html</link>
-            <guid isPermaLink="true">https://snowdreams1006.github.io/tools/badge.html</guid>
+            <title><![CDATA[学习开发自己的 chrome 插件]]></title>
+            <link>https://snowdreams1006.github.io/tools/chrome-extend-learn.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/tools/chrome-extend-learn.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -598,10 +779,152 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[简述优选文章统计]]></title>
+            <description><![CDATA[{% chart %}
+{
+"data": {
+"x": "x",
+"columns": [
+[
+"x",
+"01",
+"02",
+"03",
+"04",
+"05",
+"06",
+"07",
+"08",
+"09",
+"10",
+"11",
+"12",
+"13",
+"14",
+"15",
+"16",
+"17",
+"18",
+"19",
+"20",
+"21",
+"22",
+"23",
+"24",
+"25",
+"26",
+"27",
+"28",
+"29",
+"30",
+"31",
+"32",
+"33",
+"34",
+"35",
+"36"
+],
+[
+"阅读量",
+14000,
+10000,
+12000,
+9073,
+15000,
+7988,
+18000,
+17036,
+13146,
+16087,
+18788,
+14861,
+19771,
+27232,
+11637,
+12835,
+14173,
+9256,
+31607,
+12552,
+21840,
+10745,
+12573,
+8760,
+10981,
+22641,
+33164,
+28793,
+22393,
+17709,
+16965,
+29429,
+12264,
+25831,
+14984,
+15204
+],
+[
+"点赞量",
+174,
+70,
+69,
+30,
+191,
+57,
+117,
+124,
+54,
+101,
+101,
+41,
+32,
+83,
+76,
+70,
+61,
+48,
+72,
+74,
+88,
+55,
+28,
+39,
+13,
+36,
+61,
+111,
+28,
+102,
+23,
+55,
+41,
+28,
+31,
+60
+],
+[]]></description>
+            <link>https://snowdreams1006.github.io/write/jianshu-optimize-static.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/write/jianshu-optimize-static.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[常见问题]]></title>
             <description><![CDATA[faq-github-build-failed-issue01.png]]></description>
             <link>https://snowdreams1006.github.io/write/faq.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/write/faq.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[大数据浪潮之巅:新技术商业制胜之道]]></title>
+            <description><![CDATA[这本书讲述了大数据的发展史,描述了一幅波澜壮阔的宏大场面,有的公司迎难而上抓住机遇,有的公司错失良机失之交臂,看到的不是技术而是一系列的历史事件.]]></description>
+            <link>https://snowdreams1006.github.io/bigDataWave/README.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/bigDataWave/README.html</guid>
+            <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[晚安]]></title>
+            <link>https://snowdreams1006.github.io/greet/README.html</link>
+            <guid isPermaLink="true">https://snowdreams1006.github.io/greet/README.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
@@ -611,7 +934,7 @@
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[程序员转型之路]]></title>
+            <title><![CDATA[转型之路]]></title>
             <description><![CDATA[other-transformation-important-of-learn.png]]></description>
             <link>https://snowdreams1006.github.io/other/transformation.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/other/transformation.html</guid>
@@ -626,60 +949,33 @@
 "columns": [
 [
 "x",
-"2019-06-01",
-"2019-06-02",
-"2019-06-03",
-"2019-06-04",
-"2019-06-05",
-"2019-06-06",
-"2019-06-07",
-"2019-06-08",
-"2019-06-09",
-"2019-06-10",
-"2019-06-11",
-"2019-06-12",
-"2019-06-13",
-"2019-06-14",
-"2019-06-15",
-"2019-06-16"
+"2019-03-31",
+"2019-04-30",
+"2019-05-31",
+"2019-06-30",
+"2019-07-31",
+"2019-08-31",
+"2019-09-30"
 ],
 [
 "粉丝",
 110,
-110,
-110,
 115,
 115,
-115,
-115,
-115,
-115,
-115,
-115,
-115,
-115,
-115,
-115,
-116
+116,
+134,
+197,
+285
 ],
 [
 "阅读",
 49453,
-49453,
-49453,
-53447,
-53447,
-53447,
-53447,
-53447,
-53447,
-53447,
-53447,
-53447,
-53447,
 53447,
 53829,
-54106
+54106,
+71422,
+91544,
+115362
 ]
 ],
 "axes": {
@@ -712,19 +1008,32 @@
         </item>
         <item>
             <title><![CDATA[关于作者]]></title>
-            <description><![CDATA[申请认证慕课网作者]]></description>
+            <description><![CDATA[慕课网认证作者,今日头条优质科技领域创作者,微信公众号「雪之梦技术驿站」号主,目前专注于后端领域,主要技术栈有 Java,Go 和 NodeJs 等.]]></description>
             <link>https://snowdreams1006.github.io/other/me.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/other/me.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[捐赠支持]]></title>
+            <description><![CDATA[snowdreams1006-wechat-donate.jpg]]></description>
             <link>https://snowdreams1006.github.io/other/donate.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/other/donate.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[TODO清单]]></title>
+            <description><![CDATA[INFO  Install dependencies
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+npm ERR! code EACCES
+npm ERR! syscall open
+npm ERR! path /Users/sunpo/.npm/_cacache/index-v5/51/d3/7697273802dffa158119427da833e251b88e0e9d4c73d8f5f964476884f4
+npm ERR! errno -13
+npm ERR!
+npm ERR! Your cache folder contains root-owned files, due to a bug in
+npm ERR! previous versions of npm which has since been addressed.
+npm ERR!
+npm ERR! To permanently fix this problem, please run:
+npm ERR!   sudo chown -R 501:20 "/Users/sunpo/.npm"]]></description>
             <link>https://snowdreams1006.github.io/todo/README.html</link>
             <guid isPermaLink="true">https://snowdreams1006.github.io/todo/README.html</guid>
             <dc:creator><![CDATA[snowdreams1006]]></dc:creator>
